@@ -1,0 +1,272 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.header{
+    background-color: #3A3933;
+    width: 100vw;
+    height: 6vh;
+    z-index: 1;
+    display: flex;
+    color : white;
+}
+
+.logoimg{
+    margin-top: 3px;
+    margin-left: 1%;
+ 
+}
+
+.adminright{
+    margin-left: 90%;
+}
+
+/* <i class="fa-regular fa-user"></i> */
+.parttwo{
+    border-bottom: 1px solid black;
+    height: 3vh;
+    background-color: white;
+}
+
+.pager{
+    margin-left: 12%;
+    margin-top: 10px;
+    color: #898F9C;
+    font-size: large;
+
+}
+
+.sidebar{
+    background-color: #E6E6E6;
+    width: 12vw;
+    height: 89.5vh;
+    position: absolute;
+}
+
+.catalog{
+    margin-top: 10%;
+    margin-left: 45px;
+    font-size: medium;
+}
+li{
+    margin-left: 65px;
+    list-style: none;
+    color: #898F9C;
+    font-size: medium;
+    margin-top: 10px;
+
+}
+
+.sales{
+    margin-top: 10%;
+    margin-left: 45px;
+    font-size: medium;
+}
+
+
+.dash{
+    margin-top: 50%;
+    margin-left: 50% ;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f2f5f8;
+}
+
+/* DASHBOARD PAGE YAHA SE SHURU */
+
+.dikhao{
+    margin-left: 12vw;
+    background-color: #f2f5f8;;
+    height: 89.5vh;
+}
+
+.dropbtn {
+    color : #4267B2;
+    margin-left: 90%;
+    margin-right: 3%;
+    margin-top: 1%;
+    padding: 5px;
+    font-size: small;
+    width: 150px;
+    border : 1px solid blue;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.widget .submenu{
+    margin-left: 97%;
+    border: none;
+    background-color:transparent;
+    cursor: pointer;
+    font-size: xx-large;
+    color: tomato;
+}
+
+.widget .underline{
+    border-bottom: 0.1px solid #898F9C;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.widget{
+    background-color: white;
+    margin-top: 20px;
+    width : 85vw;
+    margin-left : 25px;
+    border : 0.1px solid #898F9C;
+    border-radius: 5px;
+    
+}
+
+.text{
+    margin-top: 40px;
+    margin-left : 20px;
+    margin-bottom: 18px;
+
+}
+
+.text .greet{
+    font-size: x-large;
+    margin-bottom: 5px;
+}
+
+.text .slogan {
+    margin-top : 20px;
+    color: #898F9C;
+}
+
+.inside {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-bottom: 50px;
+    
+}
+
+.inside button{
+    font-size: small;
+    padding: 5px;
+    background-color: transparent;
+    color : #4267B2;    
+    border: 1px solid #4267B2;
+}
+
+.inside button:hover{
+    font-size: small;
+    padding: 5px;
+    background-color:#4267B2 ;
+    color : white;    
+}
+
+.one p{
+    margin-left: 0px;
+    margin-bottom: 20px;
+    font-size: x-large;
+}
+
+.alag{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.alag p{font-size: x-large;
+    margin-left: 10px;
+    color : #898F9C;
+
+}
+.alag button{
+    border: none;
+    background-color:transparent;
+    cursor: pointer;
+    font-size: xx-large;
+    color: tomato;
+    margin-right: 10px;
+
+}
+
+.list-orders{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    border : 0.1px solid black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+
+
+/* //Dropdown css */
+
+.dropbtn {
+    color : #4267B2;
+    margin-left: 10%;
+    margin-right: 3%;
+    margin-top: 1%;
+    padding: 5px;
+    font-size: small;
+    width: 150px;
+    border : 1px solid blue;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 90%;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #4267B2;
+color : white;
+}
+
+.ddbtn{
+    width : 100%;
+    font-size: medium;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.ddbtn:hover{
+    background-color: #4267B2;
+    color : white;
+    
+
+}
+
+.sb{
+    color:#898F9C;
+    text-decoration: none;
+}

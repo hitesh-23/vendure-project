@@ -1,0 +1,24 @@
+Q.What is redux?
+  Redux is used for state management
+
+
+
+Q. Why Redux?
+    if using normal hooks, we can pass the data from parent to child component
+
+    With prop drilling we have to pass the data to all components
+
+    with useContext we have provider and useContext
+
+    In redux we will store data in separate redux store and we will get the data frm store whenever needed.
+
+Redux is a pattern and library for managing and updating application state using events called 'actions'.
+it serves as a centralised store for state that needs to be used across your entire application with rules ensuring that the state can only be updated in a predicatable fashion.
+
+Redux main topics
+Action - it tells us what to do.
+reducer - it shows how to do
+Store - Object which holds the state of the application
+Functions associated with store - createStore(), dispatch(action), getState()
+
+

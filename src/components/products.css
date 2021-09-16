@@ -1,0 +1,101 @@
+
+
+.prod-line{
+    display: flex;
+    
+    
+    justify-content: space-evenly;
+    width:84vw;
+    margin-left: 2vw;
+    height: 70px;
+    /* background-color: brown; */
+    align-items: center;
+    border-bottom: 0.1px solid #898F9C;
+    background-color: white;
+    margin-bottom: 0.6rem;
+}
+
+
+
+.first ul{
+    display: flex;
+    color : #898F9C;
+    width : 400px;
+    
+  
+    
+}
+
+.second ul{
+    display: flex;
+
+}
+
+li button {
+    border: none;
+    cursor: pointer;
+    color : #4267B2;
+    text-shadow: none;
+    font-size: large;
+    background-color: transparent;
+
+}
+
+.inside-img{
+    width: 65px;
+    height: 60px;
+}
+
+.searchbar{
+    width : 70vw;
+    margin-left: 2vw;
+    height: 2rem;
+    margin-bottom: 0.5rem;
+    padding: 5px;
+    font-size: medium;
+}
+
+.search-btn{
+    width : 10vw;
+    height: 2rem;
+    background-color: #4267B2;
+    color : white;
+    font-size: medium;
+    float: right;
+    margin-right: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+
+}
+
+
+.search-top{
+    margin-top : 0.5rem;
+
+}
+
+.search-group{
+    margin-left: 2vw;
+    color : #898F9C;
+    font-size: medium;
+    padding-bottom: 10px;
+}
+
+.indexes{
+    float: right;
+    margin-right: 2rem;
+}
+
+.index-btn{
+
+    margin-right: 0.4rem;
+    padding : 0.4rem;
+    border : none;
+    background-color: transparent;
+    
+}
+
+.index-btn:hover{
+    border-bottom: 3px solid #4267B2;
+}

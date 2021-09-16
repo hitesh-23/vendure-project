@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.App{
+    background-color: #000000;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.form{
+    margin-left: 36%;
+    background-color: white;
+    width: 27vw;
+    height: 100vh;
+    position: absolute;
+}
+
+.img-container{
+    margin-left: 19%;
+    margin-top: 13%;
+}
+
+.form-inputs{
+    margin-top: 10%;
+    height: 40vh;
+    align-content: center;
+}
+
+.username{
+    width: 70%;
+    font-size: large;
+    margin-left:15%;
+    padding-top : 5px;
+    padding-bottom: 5px;
+
+}
+
+.password{
+    width: 70%;
+    font-size: large;
+    margin-left:15%;
+    margin-top:5%;
+    padding-top : 5px;
+    padding-bottom: 5px;
+
+}
+
+.remember{
+    margin-top: 5%;
+    margin-left: 15%;
+    font-size: small;
+}
+
+.login{
+    width: 70%;
+    font-size: large;
+    margin-left:15%;
+    margin-top:15%;
+    border-radius: 5px;
+    border: 0px ;
+    padding: 10px;
+    background-color: #4267B2;
+    color: white;
+}
+
+.footfoot{
+    margin-top: 30%;
+    margin-left: 35%;
+    color : #898F9C;
+    
+}
