@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { data } from "../data.js";
+import { data } from "../../data";
 import "./products.css";
 
 const Products = () => {

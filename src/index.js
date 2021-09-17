@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Dashboard from './components/Dashboard';
+import Dashboard from './pages/dashboard/Dashboard';
 import reportWebVitals from './reportWebVitals';
 import App from './App';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

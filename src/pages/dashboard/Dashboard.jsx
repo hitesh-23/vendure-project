@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './dashboard.css' 
 import Dash from './Dash';
-import Products from './Products';
+import Products from '../../pages/products/Products';
 
 const Dashboard = () => {
 
